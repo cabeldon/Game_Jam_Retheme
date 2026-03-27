@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_projectile_bomb_big",
   "bboxMode":0,
-  "bbox_bottom":31,
-  "bbox_left":2,
-  "bbox_right":12,
+  "bbox_bottom":20,
+  "bbox_left":1,
+  "bbox_right":13,
   "bbox_top":2,
   "collisionKind":4,
   "collisionTolerance":0,
@@ -14,6 +14,7 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"424f7f91-3a3d-478c-b815-2ee73cfa13c4","name":"424f7f91-3a3d-478c-b815-2ee73cfa13c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"0249bb6a-339c-4a90-98cb-b95eb7c6e12f","name":"0249bb6a-339c-4a90-98cb-b95eb7c6e12f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd6e41ca-d4a9-4597-b3f6-0d3eb20a5b21","name":"cd6e41ca-d4a9-4597-b3f6-0d3eb20a5b21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -50,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -60,7 +61,7 @@
     },
     "name":"spr_projectile_bomb_big",
     "playback":1,
-    "playbackSpeed":15.0,
+    "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -75,6 +76,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0249bb6a-339c-4a90-98cb-b95eb7c6e12f","path":"sprites/spr_projectile_bomb_big/spr_projectile_bomb_big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"dd98af24-49f1-4493-ad3b-68f9a7f8ec18","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd6e41ca-d4a9-4597-b3f6-0d3eb20a5b21","path":"sprites/spr_projectile_bomb_big/spr_projectile_bomb_big.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"762502d8-a13c-4ea2-af90-63f18acda8a7","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
