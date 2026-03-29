@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":126.09375,
+  "duration":126.093765,
   "exportDir":"",
   "name":"snd_boss_music",
   "parent":{

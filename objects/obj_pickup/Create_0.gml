@@ -13,6 +13,7 @@ enum PICKUP_TYPE
 	HEALTH,
 	FIRE_RATE,
 	SHIELD,
+	SPEED_BOOST,
 	SIZE	
 }
 
@@ -61,11 +62,15 @@ swap_pickup = function(_type)
 			curr_pickup = PICKUP_TYPE.SHIELD;
 			image_blend = make_color_rgb(21, 230, 255);
 		break;
+		case 9: // Speed boost
+		    curr_pickup = PICKUP_TYPE.SPEED_BOOST;
+		    image_blend = make_color_rgb(0, 255, 128);
+		break;
 	}
 }
 
 // Picks a random powerup initally (using choose as some options no longer wanted)
-swap_pickup(choose(0, 1, 3, 6, 8));
+swap_pickup(choose(0, 1, 3, 6, 8, 9));
 
 // Swap cooldown is the cooldown time before a pickup swaps state
 swap_cooldown = 3.0;

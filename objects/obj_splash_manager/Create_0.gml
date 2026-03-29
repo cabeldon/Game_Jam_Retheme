@@ -1,6 +1,8 @@
 /// Splash Manager Object
 // Checks all global variables that need to be used exist or creates them here before letting the player do anything
 
+window_set_caption("Bug game");
+
 // Sets global paused flag to false since game has just started or been restarted
 global.is_paused = false;
 
@@ -8,7 +10,7 @@ global.is_paused = false;
 global.is_debug = false;
 
 // Sets the global music used for the main menu
-global.music = audio_play_sound(snd_boss_music, 100, true, 0.5);
+global.music = audio_play_sound(snd_boss_music_new, 100, true, 0.5);
 
 // Stick cooldown value set to zero
 global.stick_cooldown = 0;

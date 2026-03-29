@@ -17,7 +17,7 @@ button_triggered = function()
 	gamepad_vibration(0.1, 0.1, 0.1);
 	
 	// Plays sound
-	audio_play_sound(snd_button_push, 100, false);
+	audio_play_sound(snd_button_push_new, 100, false);
 	
 	// Checks if the game is able to quit on the current platform
 	if (os_type == os_android || os_type == os_windows || os_type == os_macosx || os_type == os_linux)

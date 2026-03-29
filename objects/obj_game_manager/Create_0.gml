@@ -1,11 +1,13 @@
 /// Game Manager Object
 // Sets up the game initalising objects needed and storing level specific variables
 
+window_set_caption("Bug game");
+
 // Sets up the global paused state variable
 global.is_paused = false;
 
 // Sets global variable for main background music
-global.music = audio_play_sound(snd_main_music, 0.75, true);
+global.music = audio_play_sound(snd_main_music_new, 0.75, true);
 
 // Sets global variable for seascape sound
 global.sea_sound = audio_play_sound(snd_seascape_main, 100, true);

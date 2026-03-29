@@ -5,7 +5,7 @@
 audio_stop_sound(global.music);
 
 // Plays the lose music sting
-global.music = audio_play_sound(snd_lose_music, 100, false);
+global.music = audio_play_sound(snd_lose_music_new, 100, false);
 
 // Checks if the current score is higher than the set highscore
 if (obj_game_manager.current_points > global.highscore)

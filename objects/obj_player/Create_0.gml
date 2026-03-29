@@ -72,6 +72,10 @@ is_hurt = false;
 hurt_timer = 0;
 hurt_cooldown = 0.5;
 
+base_x_move_speed = x_move_speed;  // Snapshots the default x speed (16)
+base_y_move_speed = y_move_speed;  // Snapshots the default y speed (32)
+speed_boost_stacks = 0;
+
 // Creates and sets up new shadow for the player
 shadow = instance_create_layer(x, y, "Shadows", obj_shadow);
 shadow.owner = self;
@@ -90,7 +94,7 @@ image_xscale = 1.3;
 image_yscale = 1.3;
 
 // Plays and stores the engine sound
-engine_sound = audio_play_sound(snd_engine_player, 100, true, clamp(0.2 * image_xscale, 0, 1));
+engine_sound = audio_play_sound(snd_engine_player_new, 100, true, clamp(0.2 * image_xscale, 0, 1));
 
 // Touch input variables
 touch_input_shot = false;

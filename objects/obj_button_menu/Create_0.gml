@@ -17,7 +17,7 @@ button_triggered = function()
 	gamepad_vibration(0.1, 0.1, 0.1);
 	
 	// Plays sound
-	audio_play_sound(snd_button_push, 100, false);
+	audio_play_sound(snd_button_push_new, 100, false);
 	
 	// Sends player back to splash screen
 	room_goto(rm_splash);
