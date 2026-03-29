@@ -32,7 +32,7 @@ button_triggered = function()
 	// Button pushed vibration
 	gamepad_vibration(0.1, 0.1, 0.1);
 	// Button pushed sound effect
-	audio_play_sound(snd_button_push, 100, false);
+	audio_play_sound(snd_button_push_new, 100, false);
 	
 	// Toggles the current muted state
 	global.is_muted = !global.is_muted;

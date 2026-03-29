@@ -8,7 +8,7 @@ global.is_paused = false;
 global.is_debug = false;
 
 // Sets the global music used for the main menu
-global.music = audio_play_sound(snd_boss_music, 100, true, 0.5);
+global.music = audio_play_sound(snd_boss_music_new, 100, true, 0.5);
 
 // Stick cooldown value set to zero
 global.stick_cooldown = 0;

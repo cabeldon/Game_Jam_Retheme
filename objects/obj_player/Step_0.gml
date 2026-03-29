@@ -288,7 +288,7 @@ if (reload_timer >= reload_cooldown && curr_player_state == PLAYER_STATE.PLAYING
 			case SHOT_STYLE.SHOT_SMALL:	
 				
 				// Plays firing sound
-				audio_play_sound(snd_player_fire_1, 100, false);
+				audio_play_sound(snd_player_fire_1_new, 100, false);
 			
 				// Creates projectile and sets owner and type
 				_new_l_proj = instance_create_layer(x - 14, y - 20, "Projectiles", obj_projectile_player);

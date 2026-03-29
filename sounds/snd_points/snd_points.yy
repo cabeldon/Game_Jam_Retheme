@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.587938,
+  "duration":0.5879592,
   "exportDir":"",
   "name":"snd_points",
   "parent":{

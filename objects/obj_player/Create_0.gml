@@ -90,7 +90,7 @@ image_xscale = 1.3;
 image_yscale = 1.3;
 
 // Plays and stores the engine sound
-engine_sound = audio_play_sound(snd_engine_player, 100, true, clamp(0.2 * image_xscale, 0, 1));
+engine_sound = audio_play_sound(snd_engine_player_new, 100, true, clamp(0.2 * image_xscale, 0, 1));
 
 // Touch input variables
 touch_input_shot = false;

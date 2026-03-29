@@ -5,7 +5,7 @@
 global.is_paused = false;
 
 // Sets global variable for main background music
-global.music = audio_play_sound(snd_main_music, 0.75, true);
+global.music = audio_play_sound(snd_main_music_new, 0.75, true);
 
 // Sets global variable for seascape sound
 global.sea_sound = audio_play_sound(snd_seascape_main, 100, true);
