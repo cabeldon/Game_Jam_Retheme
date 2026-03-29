@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.086979,
+  "duration":0.08698413,
   "exportDir":"",
   "name":"snd_player_fire_2",
   "parent":{

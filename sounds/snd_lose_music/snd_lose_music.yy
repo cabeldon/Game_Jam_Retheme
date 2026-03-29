@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":6.851437,
+  "duration":6.8514514,
   "exportDir":"",
   "name":"snd_lose_music",
   "parent":{
