@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":17.008049,
+  "duration":17.008062,
   "exportDir":"",
   "name":"snd_seascape_main",
   "parent":{

@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7177778,
+  "duration":0.717792,
   "exportDir":"",
   "name":"snd_hit_small",
   "parent":{

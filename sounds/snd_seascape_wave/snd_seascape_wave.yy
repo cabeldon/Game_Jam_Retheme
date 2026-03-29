@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.2824037,
+  "duration":3.282396,
   "exportDir":"",
   "name":"snd_seascape_wave",
   "parent":{

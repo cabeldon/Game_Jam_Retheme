@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7169161,
+  "duration":0.716896,
   "exportDir":"",
   "name":"snd_engine_player",
   "parent":{
