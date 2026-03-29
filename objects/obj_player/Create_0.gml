@@ -72,6 +72,10 @@ is_hurt = false;
 hurt_timer = 0;
 hurt_cooldown = 0.5;
 
+base_x_move_speed = x_move_speed;  // Snapshots the default x speed (16)
+base_y_move_speed = y_move_speed;  // Snapshots the default y speed (32)
+speed_boost_stacks = 0;
+
 // Creates and sets up new shadow for the player
 shadow = instance_create_layer(x, y, "Shadows", obj_shadow);
 shadow.owner = self;

@@ -314,6 +314,25 @@ switch(curr_pickup)
 		
 		// Breaks the case
 		break;
+		
+	// Speed boost
+	case PICKUP_TYPE.SPEED_BOOST:
+
+	    if (other.speed_boost_stacks < 3)
+	    {
+	        other.speed_boost_stacks++;
+	        other.x_move_speed = other.base_x_move_speed * (1 + (other.speed_boost_stacks * 0.5));
+			other.y_move_speed = other.base_y_move_speed * (1 + (other.speed_boost_stacks * 0.5));
+
+	        pickup_popup("BOOST");
+	        audio_play_sound(snd_rate_up, 100, false);
+	    }
+	    else
+	    {
+	        _can_score = true;
+	    }
+
+	    break;
 }
 
 // Checks if can score flag has been set

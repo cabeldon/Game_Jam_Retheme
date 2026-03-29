@@ -46,7 +46,7 @@ if (swap_timer >= swap_cooldown)
 		_new_type++;
 		
 		// Checks if the type has exceeded available choices
-		if (_new_type > 8)
+		if (_new_type > 9)
 		{
 			// Loops back to the start
 			_new_type = 0;	
