@@ -62,7 +62,7 @@
     },
     "name":"spr_plane_enemy_small_l_turn_1",
     "playback":1,
-    "playbackSpeed":15.0,
+    "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

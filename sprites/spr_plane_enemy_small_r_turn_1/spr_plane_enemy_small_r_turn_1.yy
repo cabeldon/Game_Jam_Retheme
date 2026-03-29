@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9b99f9a6-2cf5-45a2-9283-e8cfa7dda30a","name":"9b99f9a6-2cf5-45a2-9283-e8cfa7dda30a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"affb001f-809f-4efc-8e94-bb9562f33fb9","name":"affb001f-809f-4efc-8e94-bb9562f33fb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"61e3517c-ebe1-4e56-9627-0c38c7e6830a","name":"61e3517c-ebe1-4e56-9627-0c38c7e6830a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"2c969934-4cd4-489c-9531-8a136f75fdc0","name":"2c969934-4cd4-489c-9531-8a136f75fdc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4b93974c-be0e-4cd0-ab7b-2cbb6b96e5d9","name":"4b93974c-be0e-4cd0-ab7b-2cbb6b96e5d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f7fe3f9-a478-42c3-9229-2f1cfc186f5a","name":"7f7fe3f9-a478-42c3-9229-2f1cfc186f5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"65904916-d246-4eeb-b6d1-e52376f86125","name":"65904916-d246-4eeb-b6d1-e52376f86125","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d35194e6-31d3-4255-92b1-6820a00544f3","name":"d35194e6-31d3-4255-92b1-6820a00544f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -62,7 +62,7 @@
     },
     "name":"spr_plane_enemy_small_r_turn_1",
     "playback":1,
-    "playbackSpeed":15.0,
+    "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -72,17 +72,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b99f9a6-2cf5-45a2-9283-e8cfa7dda30a","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8429800d-47fa-4517-98d9-0d90b3549ca1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4b93974c-be0e-4cd0-ab7b-2cbb6b96e5d9","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"58116ed0-dd11-48a1-9bec-31c486efca1a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"affb001f-809f-4efc-8e94-bb9562f33fb9","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b3f63db3-82fc-49df-8161-51be21bb64d1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f7fe3f9-a478-42c3-9229-2f1cfc186f5a","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3a768dc1-ab75-4305-bfb5-ebe5f985c35b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"61e3517c-ebe1-4e56-9627-0c38c7e6830a","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dc6ffdb5-b4be-4c6e-9611-19a4dabc1997","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"65904916-d246-4eeb-b6d1-e52376f86125","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7703a43-a1ae-4ef5-9859-bb191ecbd865","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c969934-4cd4-489c-9531-8a136f75fdc0","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cb8be1e7-6841-4fa8-a3d7-e86c99060f7c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d35194e6-31d3-4255-92b1-6820a00544f3","path":"sprites/spr_plane_enemy_small_r_turn_1/spr_plane_enemy_small_r_turn_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8ff7c84a-83be-4725-bc11-409474d77a82","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

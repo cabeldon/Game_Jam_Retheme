@@ -3,9 +3,9 @@
   "%Name":"spr_plane_enemy_turret",
   "bboxMode":0,
   "bbox_bottom":26,
-  "bbox_left":5,
-  "bbox_right":26,
-  "bbox_top":5,
+  "bbox_left":2,
+  "bbox_right":27,
+  "bbox_top":3,
   "collisionKind":4,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -14,7 +14,7 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"663ea305-3754-46a6-8dfd-8873f78d9fc0","name":"663ea305-3754-46a6-8dfd-8873f78d9fc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"51b8a682-8605-496f-9841-48d69e75999d","name":"51b8a682-8605-496f-9841-48d69e75999d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6a74d0d0-ad02-46cc-9d8f-f64a3d75025c","name":"6a74d0d0-ad02-46cc-9d8f-f64a3d75025c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0c3925ea-ba85-48da-92f5-8a904f99b080","name":"0c3925ea-ba85-48da-92f5-8a904f99b080","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"acf41478-8d0f-4b17-b3b4-255c83085283","name":"acf41478-8d0f-4b17-b3b4-255c83085283","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"d364c9e9-50ad-42ea-b7cf-025ed0653901","name":"d364c9e9-50ad-42ea-b7cf-025ed0653901","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"d0324440-8818-47ec-90a2-f4dd1e303c33","name":"d0324440-8818-47ec-90a2-f4dd1e303c33","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -82,8 +82,8 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"51b8a682-8605-496f-9841-48d69e75999d","path":"sprites/spr_plane_enemy_turret/spr_plane_enemy_turret.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"25415ca3-7e0e-48d8-8bf2-28b0d130f91d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a74d0d0-ad02-46cc-9d8f-f64a3d75025c","path":"sprites/spr_plane_enemy_turret/spr_plane_enemy_turret.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"845d0d94-110d-4da0-b07b-f45cf12b8fc1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c3925ea-ba85-48da-92f5-8a904f99b080","path":"sprites/spr_plane_enemy_turret/spr_plane_enemy_turret.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a062ab3b-8fc7-41dd-976b-bbaf8288357c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"acf41478-8d0f-4b17-b3b4-255c83085283","path":"sprites/spr_plane_enemy_turret/spr_plane_enemy_turret.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"977226c7-d28a-4794-85dd-e549a1576462","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
