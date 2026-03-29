@@ -1,6 +1,8 @@
 /// Game Manager Object
 // Sets up the game initalising objects needed and storing level specific variables
 
+window_set_caption("Bug game");
+
 // Sets up the global paused state variable
 global.is_paused = false;
 
